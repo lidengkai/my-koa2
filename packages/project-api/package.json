@@ -1,0 +1,7 @@
+{
+  "name": "project-api",
+  "version": "0.1.0",
+  "author": "lidengkai <lidengkai9487@163.com>",
+  "private": true,
+  "type": "module"
+}

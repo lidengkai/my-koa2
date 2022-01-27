@@ -1,0 +1,14 @@
+{
+  "name": "~lib",
+  "version": "0.1.0",
+  "author": "lidengkai <lidengkai9487@163.com>",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "axios": "~0.21.1",
+    "crypto": "~1.0.1",
+    "formidable": "~1.2.2",
+    "moment": "~2.29.1",
+    "sequelize": "~6.6.5"
+  }
+}

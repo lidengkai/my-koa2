@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "src",
+    "packages/lib",
+    "packages/project-system",
+    "packages/project-api"
+  ]
+}

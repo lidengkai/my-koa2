@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "~lib/*": ["./packages/lib/*"],
+      "project-system/*": ["./packages/project-system/*"],
+      "project-api/*": ["./packages/project-api/*"]
+    },
+    "types": []
+  },
+  "include": [
+    "src",
+    "packages/lib",
+    "packages/project-system",
+    "packages/project-api"
+  ],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}
